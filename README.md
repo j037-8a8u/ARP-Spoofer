@@ -1,13 +1,13 @@
 # ARP Spoofer
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 This project is intended **strictly for educational purposes and authorized lab environments only**.
 Do **NOT** use this tool on networks you do not own or have explicit permission to test.
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This is a simple Python-based ARP spoofing script that performs a **Man-in-the-Middle (MITM)** attack by poisoning the ARP tables of a target machine and the router.
 
@@ -18,7 +18,7 @@ It continuously sends spoofed ARP responses to:
 
 ---
 
-## 🚀 Features
+##  Features
 
 * ARP spoofing between target and router
 * Automatic MAC address resolution
@@ -28,7 +28,7 @@ It continuously sends spoofed ARP responses to:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * Python 3
 * `scapy` (packet crafting & network interaction)
@@ -37,7 +37,7 @@ It continuously sends spoofed ARP responses to:
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### 1. Clone the repository
 
@@ -75,7 +75,7 @@ sudo python3 arp_spoofer.py -t 192.168.1.5 -r 192.168.1.1
 
 ---
 
-## 📊 Example Output
+##  Example Output
 
 ```
 [+] Sent 120 packets
@@ -90,7 +90,7 @@ Press `CTRL + C` to stop:
 
 ---
 
-## 🔍 How It Works
+##  How It Works
 
 1. Retrieves MAC addresses using ARP requests
 2. Sends forged ARP replies:
@@ -103,7 +103,7 @@ Press `CTRL + C` to stop:
 
 ---
 
-## ⚠️ Requirements & Notes
+##  Requirements & Notes
 
 * Must be run with **root privileges**
 * Works only on **local networks (LAN)**
@@ -115,7 +115,7 @@ Press `CTRL + C` to stop:
 
 ---
 
-## 🔒 Ethical Use
+##  Ethical Use
 
 Only use this tool in:
 
